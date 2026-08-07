@@ -1,8 +1,8 @@
 cask "axon" do
-  version "0.1.7"
-  sha256 "e0f70f65a42d197f6b03974922ee37265ac492b6d1db431fbe8d633eb0c6be7b"
+  version "0.2.0"
+  sha256 "5902943bc97748e65b3d3429bd01c83d34707c082c42d0470e7b76c6246d1506"
 
-  url "https://github.com/bleugreen/axon/releases/download/v#{version}/Axon-#{version}.zip"
+  url "https://github.com/bleugreen/axon/releases/download/v#{version}/Axon-#{version}-macos-aarch64.zip"
   name "Axon"
   desc "Local macOS accessibility service for agents"
   homepage "https://github.com/bleugreen/axon"
