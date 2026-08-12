@@ -1,6 +1,6 @@
 cask "axon" do
-  version "0.3.0"
-  sha256 "3e7db77461418a8641a80f2d590cfa07871071d96ea33b0ef01ebd1103587d74"
+  version "0.3.1"
+  sha256 "9a0d21a7a8bc980d70d43313332928c7ccd597fd4f117a937f30f99fd757b7e5"
 
   url "https://github.com/bleugreen/axon/releases/download/v#{version}/Axon-#{version}-macos-aarch64.zip"
   name "Axon"
