@@ -1,6 +1,6 @@
 cask "axon" do
-  version "0.3.5"
-  sha256 "aafebeedd5264c81fdc6e286f600fb0025acac2cc7bf3886fb9b547fc51dfcbb"
+  version "0.3.6"
+  sha256 "5748ce7e08ee1e521fb4044ffa30577acf588a02d368a2f3d2bb459264d9c141"
 
   url "https://github.com/bleugreen/axon/releases/download/v#{version}/Axon-#{version}-macos-aarch64.zip"
   name "Axon"
@@ -9,8 +9,7 @@ cask "axon" do
 
   depends_on macos: ">= :sonoma"
 
-  app "Axon-#{version}/Axon.app"
-  app "Axon-#{version}/Axon Editor.app"
+  app "Axon.app"
   binary "#{appdir}/Axon.app/Contents/Resources/bin/axon"
 
   zap trash: [
